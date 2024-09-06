@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Getting Started
-permalink: /home/
+permalink: /getting-started/
 ---
 
 # Welcome to Jump Puzzle Guides

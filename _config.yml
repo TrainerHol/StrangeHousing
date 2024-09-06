@@ -41,7 +41,7 @@ theme: just-the-docs
 search_enabled: true
 languages: ["en", "es", "ja"]
 default_lang: "en"
-exclude_from_localization: ["assets", "images", "css", "js", "fonts"]
+exclude_from_localization: ["assets", "images", "css", "js", "fonts", ".obsidian"]
 parallel_localization: true
 plugins:
   - jekyll-feed
