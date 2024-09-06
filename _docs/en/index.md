@@ -15,3 +15,5 @@ Here you'll find guides for various FFXIV jump puzzles.
 - [Discord Server](https://discord.gg/cVUjUUXFhG)
 
 ## Guides
+
+Guides can come here
