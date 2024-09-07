@@ -74,3 +74,10 @@ just_the_docs:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+callouts:
+  warning:
+    title: Warning
+    color: red
+  info:
+    title: Info
+    color: green
