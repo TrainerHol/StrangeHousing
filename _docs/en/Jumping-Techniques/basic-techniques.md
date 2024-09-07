@@ -10,6 +10,15 @@ nav_order: 2
 
 These are some of the fundamental skills that will help ease you into starting your journey into jump puzzles.
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
 ## **Upwarp / Ceiling Lift / Elevator**
 
 ### Regular Upwarp
@@ -25,7 +34,7 @@ Ceiling lifts or elevators represent yet another manifestation of upwarp mechani
 
 ![Image]({{ site.baseurl }}/assets/images/Up_Warp.gif)
 
-### **Return to Door**
+### Return to Door
 
 Within jump puzzles, there may be moments when you find yourself disoriented or accidentally phase through obstacles, leaving you seemingly stuck in the void. It's essential to remember that no matter the situation, there's a way back to the starting point. You'll never be permanently trapped in the void.
 
