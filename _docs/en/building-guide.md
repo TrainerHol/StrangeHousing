@@ -44,9 +44,9 @@ I suggest starting with an Apartment, then making the FC Room. That means 500-80
 Jump Puzzles require certain furnishings in order to be successful. The barebones of what you need to have a typical Jump Puzzle:
 
 - **Ceiling Breaker Furnishing Or Bed**: You either need to break through the ceiling with a furnishing that has lift or put a bed into the wall to break out of the room. The typical Doze Gate is difficult to set up without TPP, so I suggest a lift furnishing like:
-  - Model Star Globe
-  - Zabuton Cushion
-  - Dragon Floor Lamp
+  - [Model Star Globe](https://na.finalfantasyxiv.com/lodestone/playguide/db/item/a28b736caca/)
+  - [Zabuton Cushion](https://na.finalfantasyxiv.com/lodestone/playguide/db/item/3199ee0b40f/)
+  - [Dragon Floor Lamp](https://eu.finalfantasyxiv.com/lodestone/playguide/db/item/045c1d36a16/)
 
 Other options work, but those are the most common ones. Pick the Zabuton Cushion if you're short on gil and/or reputation.
 
