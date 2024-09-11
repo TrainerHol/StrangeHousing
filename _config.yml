@@ -39,7 +39,7 @@ color_scheme: dark
 # Build settings
 theme: just-the-docs
 search_enabled: true
-languages: ["en", "es", "ja"]
+languages: ["en", "ja"]
 default_lang: "en"
 exclude_from_localization: ["assets", "images", "css", "js", "fonts", ".obsidian"]
 parallel_localization: true
