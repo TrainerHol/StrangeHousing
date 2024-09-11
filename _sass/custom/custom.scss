@@ -1,0 +1,57 @@
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.table-wrapper table {
+  max-width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.table-wrapper th,
+.table-wrapper td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+  white-space: nowrap;
+}
+
+// Example of setting min and max widths for specific columns
+.table-wrapper th:nth-child(1),
+.table-wrapper td:nth-child(1) {
+  min-width: 60px;
+  max-width: 100px;
+}
+
+.table-wrapper th:nth-child(2),
+.table-wrapper td:nth-child(2) {
+  min-width: 80px;
+  max-width: 150px;
+}
+
+// Add similar rules for other columns as needed
+
+// Media query for smaller screens
+@media screen and (max-width: 600px) {
+  .table-wrapper th,
+  .table-wrapper td {
+    white-space: normal; // Allow wrapping on smaller screens
+  }
+}
+
+.side-bar {
+  @include mq(lg) {
+    width: $nav-width * 1.5;
+    min-width: $nav-width;
+  }
+}
+
+.main {
+  @include mq(lg) {
+    max-width: calc(100% - #{$nav-width} - 1px);
+  }
+}
+
+.main-content-wrap {
+  padding-left: 0 !important;
+}

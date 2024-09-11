@@ -11,7 +11,7 @@ nav_order: 1
 ## North American Circuit - ★☆☆☆☆
 
 | ID    | World   | DC         | Dist | Ward | Plot | Room | Puzzle Name              |
-| ----- | ------- | ---------- | ---- | ---- | ---- | ---- | ------------------------ |
+| :---- | :------ | :--------- | :--- | :--- | :--- | :--- | :----------------------- |
 | 00253 | Cactuar | Aether NA  | SH   | 17   | 37   | 10   | Library of the Ancients  |
 | 00081 | Jenova  | Aether NA  | LB   | 10   | 36   | 8    | Cookie Party I           |
 | 00534 | Jenova  | Aether NA  | LB   | 10   | 36   | 12   | Yuri Collection I        |
@@ -114,7 +114,7 @@ nav_order: 1
 ## Global Circuit - ★★★★☆
 
 | ID    | World     | DC         | Dist | Ward | Plot | Room | Puzzle Name                    |
-| ----- | --------- | ---------- | ---- | ---- | ---- | ---- | ------------------------------ |
+| :---- | :-------- | :--------- | :--- | :--- | :--- | :--- | :----------------------------- |
 | 00403 | Jenova    | Aether NA  | LB   | 10   | 36   | 20   | Spare Parts II                 |
 | 00263 | Malboro   | Crystal NA | GO   | 27   | 43   | -    | Luxfire Faire Tower v3         |
 | 00101 | Seraph    | Dynamis NA | MI   | 4    | A2   | 2    | Divided World                  |
