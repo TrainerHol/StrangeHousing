@@ -62,7 +62,7 @@ In contrast to raids, where only the pixel directly beneath you defines your hit
 
 **Example:**
 
-![Image]({{ site.baseurl }}/assets/images/Target_circle_short.gif)
+![Image]({{ site.baseurl }}/assets/images/target_circle_short.gif)
 
 When you are higher than 0.5 yalms from a flat surface your entire outer ring essentially serves as your hitbox. In most cases, as long as this outer ring contacts a walkable surface, you can maintain your footing, even when 99% of your character appears to hang over the edge, seemingly defying gravity as you walk on air. Paying attention to your target circle can help you overcome tight jumps and jumps that do not give you much room in which to walk.
 
