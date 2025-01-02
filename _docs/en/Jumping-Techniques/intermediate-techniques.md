@@ -31,7 +31,7 @@ Doze gates are the most prevalent versions of emote gates found in puzzles. This
 
 #### Example: Doze gate being used to pass through a gaol partition
 
-![Image]({{ site.baseurl }}/assets/images/Doze_Gate.gif)
+![Image]({{ site.baseurl }}assets/images/Doze_Gate.gif)
 
 ### /Sit Gates
 
@@ -39,17 +39,17 @@ Like Doze Gates, to do this one all you have to do is be close enough to a chair
 
 #### Example: Sit gates that cross sections of the void.
 
-![Image]({{ site.baseurl }}/assets/images/Sit_gate_1.gif)
+![Image]({{ site.baseurl }}assets/images/Sit_gate_1.gif)
 
 #### Example: Sit gate through an opening that would otherwise be too narrow to cross.
 
-![Image]({{ site.baseurl }}/assets/images/Sit_Gate.gif)
+![Image]({{ site.baseurl }}assets/images/Sit_Gate.gif)
 
 ### Sit / Doze Jumps
 
 These emote gates are less frequently encountered in puzzles due to the complexity of creating jumps that function correctly. Among them, the /sit jumps are the simplest to execute. In these instances, a chair is partially embedded in a wall or another object, and by sitting in it and subsequently jumping, you're effectively teleported to the top of the item, somewhat resembling an upwarp. The act of jumping will trigger the game to teleport you up whereas simply walking off the chair will not.
 
-![Image]({{ site.baseurl }}/assets/images/Sit_jump.gif)
+![Image]({{ site.baseurl }}assets/images/Sit_jump.gif)
 
 ## Emote Slides
 
@@ -63,7 +63,7 @@ The initial type of emote slide is referred to as a Slide or a Lock. In this sce
 
 #### Example: Slide tech being used
 
-![Image]({{ site.baseurl }}/assets/images/slide_lock.gif)
+![Image]({{ site.baseurl }}assets/images/slide_lock.gif)
 
 ### Pumps
 
@@ -71,7 +71,7 @@ The next type of slide is known as a “Pump” because two wall furniture will 
 
 #### Example: Pump tech being used
 
-![Image]({{ site.baseurl }}/assets/images/Emote_slide_pump_3.gif)
+![Image]({{ site.baseurl }}assets/images/Emote_slide_pump_3.gif)
 
 ## Void Jump
 
@@ -81,7 +81,7 @@ However, it's crucial to note that very few puzzles are designed with this techn
 
 #### Example: Void jump, also showing that you cannot just jump up regularly otherwise
 
-![Image]({{ site.baseurl }}/assets/images/Void_jump.gif)
+![Image]({{ site.baseurl }}assets/images/Void_jump.gif)
 
 ## Phasing
 
@@ -91,7 +91,7 @@ It's important to note that much like void jumps, phasing is a technique often p
 
 #### Example: Normal phasing.
 
-![Image]({{ site.baseurl }}/assets/images/Phasing.gif)
+![Image]({{ site.baseurl }}assets/images/Phasing.gif)
 
 ## Ghosting
 
@@ -105,16 +105,16 @@ Ghosting is one of the latest tech discoveries in the realm of jump puzzles. It 
 
 <ins>Go to the System Menu<ins>
 
-![Image]({{ site.baseurl }}/assets/images/System.png)
+![Image]({{ site.baseurl }}assets/images/System.png)
 
 <ins>Graphics Settings<ins>
 
-![Image]({{ site.baseurl }}/assets/images/Graphics_Settings.png)
+![Image]({{ site.baseurl }}assets/images/Graphics_Settings.png)
 
 <ins>Disable LOD<ins>
 Make sure the option "Use low-detail models on distant objects. (LOD)” is unchecked.
 
-![Image]({{ site.baseurl }}/assets/images/LOD.png)
+![Image]({{ site.baseurl }}assets/images/LOD.png)
 
 The one caveat to Ghosting is that sometimes it can be hard to tell if items in a puzzle are Ghosting or if your graphics settings are just not tuned right. The game features a setting that utilizes low-detail objects for items at a distance. However because the game lacks low-detail representations for housing furniture it will make it seem like certain items are disappearing, even when they haven't actually been unloaded. Furthermore, these "fake Ghosted" items will still have their collision intact, unlike what happens with genuine ghosted items. All puzzles that are big or tall enough will show items disappearing if you leave the LOD setting on. Please note that this is not actual ghosting, only puzzles marked with the subtype (G) or (G+) will feature this tech. Avoiding confusion on what is or is not ghosting is the reason why it is so important to make sure you have the LOD setting turned off.
 
@@ -122,13 +122,13 @@ The one caveat to Ghosting is that sometimes it can be hard to tell if items in 
 
 Here you can see how most of the surroundings will disappear with the LOD setting on, items will also disappear as your camera rotates. This is NOT true Ghosting! The items here, though they might disappear, still have collision.
 
-![Image]({{ site.baseurl }}/assets/images/ghosting_fake.gif)
+![Image]({{ site.baseurl }}assets/images/ghosting_fake.gif)
 
 #### Example: Ghosting
 
 This is what the same puzzle looks like with the LOD setting turned off, and also an example of what Ghosting actually looks like.
 
-![Image]({{ site.baseurl }}/assets/images/ghosting_example.gif)
+![Image]({{ site.baseurl }}assets/images/ghosting_example.gif)
 
 ### What Causes Ghosting?
 
@@ -145,31 +145,31 @@ While ghosting doesn’t require the player to do anything that is too out of th
 
 When taking too long jumping from timed platforms, the item beneath you can vanish oftentimes making you fall or warp down. These examples also show the walls animating as the ghosting sequence is progressing. Animations like these can serve as a countdown of sorts to show you how much time you have left.
 
-![Image]({{ site.baseurl }}/assets/images/Ghosting.gif) ![Image]({{ site.baseurl }}/assets/images/Ghost_failed_timed_jump.gif)
+![Image]({{ site.baseurl }}assets/images/Ghosting.gif) ![Image]({{ site.baseurl }}assets/images/Ghost_failed_timed_jump.gif)
 
 #### Example: To do timed jumps correctly like in the examples below, it is helpful to try and line your jumps up so that you can hit both fairly consecutively with little to no downtime between jumps.
 
-![Image]({{ site.baseurl }}/assets/images/Ghost_timed_jump.gif) ![Image]({{ site.baseurl }}/assets/images/Ghost_timed_jump_2.gif)
+![Image]({{ site.baseurl }}assets/images/Ghost_timed_jump.gif) ![Image]({{ site.baseurl }}assets/images/Ghost_timed_jump_2.gif)
 
 #### Example: Ghosting Save
 
 Occasionally when a timed platform disappears beneath you, jumping in place can make the item reappear. Another jump will then place you back on top of the item and restart the ghosting countdown, effectively giving you another try.
 
-![Image]({{ site.baseurl }}/assets/images/Ghost_timed_platform_save.gif)
+![Image]({{ site.baseurl }}assets/images/Ghost_timed_platform_save.gif)
 
 #### Example: Another application of Ghosting is the ability to jump through otherwise solid items. In the example below, jumping pushes your character high enough that it triggers the Ghosting sequence to happen and for items to start disappearing, thus making a wall that you can jump through.
 
-![Image]({{ site.baseurl }}/assets/images/ghost_jump_through.gif)
+![Image]({{ site.baseurl }}assets/images/ghost_jump_through.gif)
 
 #### Example: Invisible Platform
 
 A different application of Ghosting is jumping to invisible targets that reappear as you jump down to them. Succeeding on jumps like these takes careful observation on what exactly is disappearing and whether it is a possible path to jump to.
 
-![Image]({{ site.baseurl }}/assets/images/Ghost_land_on_invisible_platform.gif)
+![Image]({{ site.baseurl }}assets/images/Ghost_land_on_invisible_platform.gif)
 
 #### Example: Making an item disappear so that you can walk into it enough to trigger an upwarp once it regains its collision.
 
-![Image]({{ site.baseurl }}/assets/images/Ghost_lift.gif)
+![Image]({{ site.baseurl }}assets/images/Ghost_lift.gif)
 
 These are all just examples of a few uses of Ghosting and are not an exhaustive list. There are other examples of ghosting not pictured here and I'm sure we will find many more uses for Ghosting in the future.
 
@@ -180,10 +180,10 @@ For Headbangers, it's essential to adjust the arc of your jump in a way that all
 
 #### Example: Early jump to avoid a Headbanger
 
-![Image]({{ site.baseurl }}/assets/images/headbanger.gif)
+![Image]({{ site.baseurl }}assets/images/headbanger.gif)
 
 To navigate past Bodybangers, you often need to make use of your target circle. This entails moving as far as possible by adjusting your target circle's position and then jumping so that your target circle barely catches an edge on the other side of the obstacle. This precise maneuver can allow you to pass the Bodybanger without crashing into it.
 
 #### Example: Bodybanger
 
-![Image]({{ site.baseurl }}/assets/images/bodybanger.gif)
+![Image]({{ site.baseurl }}assets/images/bodybanger.gif)
