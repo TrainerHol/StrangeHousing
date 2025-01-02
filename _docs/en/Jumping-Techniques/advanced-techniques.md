@@ -25,7 +25,7 @@ Ninja Walls are characterized by jumps from the edge of specific partitions that
 
 Some individuals have reported greater success with ninja jumps by running along the length of a partition and then suddenly moving their camera in the direction they want to jump while jumping at the same time. This technique for executing jumps from ninja walls is generally easier to replicate with a mouse and keyboard setup.
 
-![Image]({{ site.baseurl }}assets/images/ninja_jump.gif)
+![Image]({{ site.baseurl }}/assets/images/ninja_jump.gif)
 
 ## Partition Transfers
 
@@ -33,13 +33,13 @@ A Partition Transfer is when, on a ninja wall, you jump from the ledge on one si
 
 Each person will have to find a way that is most comfortable for them in order to successfully make one of these jumps, however there are two separate ways people use to help navigate these jumps. The first way is, while using sprint or peloton, get to the corner of the partition, and then make a fairly substantial jump towards the other edge of the wall. It might feel like your character is hitting a wall when done correctly and you will catch the edge on the other side of the partition. The other approach includes utilizing your target circle, moving slowly, and aligning your arrows to help you extend far enough and to help you aim for the edge on the other side with precision.
 
-![Image]({{ site.baseurl }}assets/images/Partition_transfers.gif)
+![Image]({{ site.baseurl }}/assets/images/Partition_transfers.gif)
 
 ## Moving Upwarp/ Staggered Lift
 
 This is a rather specialized application of upwarps. To execute this particular jump, the key is not to remain stationary; instead, you should initiate a forward run and time your jump so that the peak of your jump aligns with the lower portion of the object you intend to upwarp through. This can either activate them instantly or allow you to cling to them and trigger the upwarp with another jump.
 
-![Image]({{ site.baseurl }}assets/images/moving_upwarp.gif)
+![Image]({{ site.baseurl }}/assets/images/moving_upwarp.gif)
 
 ## Job gates
 
@@ -49,7 +49,7 @@ The utilization of job gates in puzzles can restrict the accessibility of the pu
 
 #### Example: Using Dancer’s En Avant to cross the void.
 
-![Image]({{ site.baseurl }}assets/images/Job_Gate_2.gif)
+![Image]({{ site.baseurl }}/assets/images/Job_Gate_2.gif)
 
 ## Forbidden Phasing
 
@@ -60,7 +60,7 @@ Some people find that using walk mode can help control the side-to-side movement
 
 > Forbidden phasing received its name due to how this technique can completely trivialize structure puzzles and is frequently banned by puzzle builders. When this technique is a required part of a puzzle, it will be labeled with "P+" in the puzzle's subtypes.
 
-![Image]({{ site.baseurl }}assets/images/Forbidden_phasing.gif)
+![Image]({{ site.baseurl }}/assets/images/Forbidden_phasing.gif)
 
 ## Running Forbidden Phasing
 
@@ -68,7 +68,7 @@ Running Forbidden Phasing is akin to Regular Forbidden Phasing, but it skips the
 
 This technique is relatively rare and typically found in 5-star puzzles. All the same warnings and precautions regarding phasing apply here, as previously mentioned. If this technique is required, you will also see it marked with “P+” in the subtypes of puzzles.
 
-![Image]({{ site.baseurl }}assets/images/Running_Forbidden.gif)
+![Image]({{ site.baseurl }}/assets/images/Running_Forbidden.gif)
 
 ## Housing Shell and its Effects
 
@@ -76,17 +76,17 @@ This technique is relatively rare and typically found in 5-star puzzles. All the
 
 Housing cubes have introduced many unique features to jump puzzles. One distinct aspect of the houses and rooms in the Goblet residential district is that the entire exterior rim of the housing cube is walkable because the outside pillars and walls have collision. However, it's crucial to review the rules of the specific puzzle you're attempting, as many puzzles may forbid this.
 
-![Image]({{ site.baseurl }}assets/images/goblet_cube.gif)
+![Image]({{ site.baseurl }}/assets/images/goblet_cube.gif)
 
 ## Empyreum Shirogane and Lavender Beds Shells
 
 In houses and rooms within the Lavender Beds, Empyreum, and Shirogane residential wards, all of the pillars along the outside walls are walkable surfaces, allowing you to jump from pillar to pillar. To make these jumps easier, you can place waymarks on the pillars, which can serve as guides for your jumps. When viewed from the void, the top of the glow of the waymarks will indicate where you should jump to. This method makes navigating and jumping along the pillars more manageable.
 
-![Image]({{ site.baseurl }}assets/images/Waymarks.jpg)
+![Image]({{ site.baseurl }}/assets/images/Waymarks.jpg)
 
 #### Example: an example of jumping from pillar to pillar
 
-![Image]({{ site.baseurl }}assets/images/pillar_hop.gif)
+![Image]({{ site.baseurl }}/assets/images/pillar_hop.gif)
 
 ## Mist Housing Shell
 
@@ -94,15 +94,15 @@ In the Mist housing area, unlike the other residential wards, houses and rooms l
 
 #### Example: one of the ceiling beams in question that can cause this phenomenon to occur and that you can get stuck on
 
-![Image]({{ site.baseurl }}assets/images/Mist_ceiling.png)
+![Image]({{ site.baseurl }}/assets/images/Mist_ceiling.png)
 
 #### Example: An example of an upwarp through an item that should not allow upwarping
 
-![Image]({{ site.baseurl }}assets/images/Mist_ceiling_beam_upwarp.gif)
+![Image]({{ site.baseurl }}/assets/images/Mist_ceiling_beam_upwarp.gif)
 
 #### Example: An example of getting stuck in a beam and teleported up when pressing the jump button
 
-![Image]({{ site.baseurl }}assets/images/Mist_ceiling_beam_stuck.gif)
+![Image]({{ site.baseurl }}/assets/images/Mist_ceiling_beam_stuck.gif)
 
 ## Wait Gate / ICam Reset
 
@@ -110,7 +110,7 @@ In the Mist housing area, unlike the other residential wards, houses and rooms l
 
 > This tech can break or trivialize some puzzles and should not be used in puzzles where it is not intended.
 
-![Image]({{ site.baseurl }}assets/images/wait_gate_2.gif) ![Image]({{ site.baseurl }}assets/images/wait_gate_1.gif)
+![Image]({{ site.baseurl }}/assets/images/wait_gate_2.gif) ![Image]({{ site.baseurl }}/assets/images/wait_gate_1.gif)
 
 The Wait Gate is a glitch produced from the Idle Camera and Group Pose. When the game goes in and out of each ICam viewpoint, it has a chance to reset the state of one piece of furniture at random as if it had ghosted. This can be used to reset pumps and slides, and is currently the only known way for a player to force a reset of a slide from inside a puzzle without using ghosting. For most items this process happens to nothing will change. However, when this process happens on emote slides it can cause the item to revert to it's original settings. If this is applied to emote pumps however, it is highly likely that it will cause the entire pump to break as pumps require the two wooden beams to act together.
 
@@ -124,7 +124,7 @@ This very powerful tech has one big downside. If you are using this tech in a pu
 > You can also change whether icam automatically starts when you go AFK by going to:
 > System Configuration > Other Settings
 
-![Image]({{ site.baseurl }}assets/images/wg1.png) ![Image]({{ site.baseurl }}assets/images/wg2.png)
+![Image]({{ site.baseurl }}/assets/images/wg1.png) ![Image]({{ site.baseurl }}/assets/images/wg2.png)
 
 Under **Auto-AFK Settings**, you will want to change the time it takes to go afk and trigger the camera.
 

@@ -22,7 +22,7 @@ title: STRANGE HOUSING - FF14 Parkour
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Strange Housing is a FF14 Parkour community focusing on building and sharing jump puzzles.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.xivpuzzles.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: TrainerHol
 github_username: TrainerHol

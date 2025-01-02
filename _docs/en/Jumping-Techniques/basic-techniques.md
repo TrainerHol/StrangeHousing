@@ -26,13 +26,13 @@ These are some of the fundamental skills that will help ease you into starting y
 An upwarp phenomenon occurs when you jump beneath furniture lacking collision on its underside. In the game, all collision is one-sided, meaning you can pass through from one direction but not from the other. So, when the bottom of an item lacks collision, what's essentially happening is that you're accessing the other side of that one way door where you can pass through.(Evidence of this aspect of one way collision can be seen in the Imitation Stained Crystal Ornaments) As a result, you traverse through the object, and it elevates you to the next surface.
 It is easiest and the most reliable to perform this jump when you are not running and moving around. Many objects in FFXIV lack collision underneath them, so feel free to experiment and discover which ones you can pass through using this method.
 
-![Image]({{ site.baseurl }}assets/images/simple_Upwarp_1.gif)
+![Image]({{ site.baseurl }}/assets/images/simple_Upwarp_1.gif)
 
 ### Ceiling Lifts/ Elevators
 
 Ceiling lifts or elevators represent yet another manifestation of upwarp mechanics. They serve as the primary means by which puzzles breach the ceiling, allowing players to Start a jump puzzle. Popular furniture items such as Star Globes, Dragon Lamps, Zabutons, Rope Stanchions, Dress Forms, and Greatwood Planters are often employed for creating these lifts. Furthermore, by linking these items together, these lifts can cover substantial distances.
 
-![Image]({{ site.baseurl }}assets/images/Up_Warp.gif)
+![Image]({{ site.baseurl }}/assets/images/Up_Warp.gif)
 
 ### Return to Door
 
@@ -42,33 +42,33 @@ To return, follow these steps:
 
 **Socials menu**
 
-![Image]({{ site.baseurl }}assets/images/Social.png)
+![Image]({{ site.baseurl }}/assets/images/Social.png)
 
 **Housing**
 
-![Image]({{ site.baseurl }}assets/images/Housing.png)
+![Image]({{ site.baseurl }}/assets/images/Housing.png)
 
 **Move to Front/Chamber Door**
 
-![Image]({{ site.baseurl }}assets/images/Chamber_door.png)
+![Image]({{ site.baseurl }}/assets/images/Chamber_door.png)
 
 ## **Target Circle**
 
 A helpful technique during jumping is to utilize your target circle. Once you've selected your character, you'll notice a ring around your character.
 
-![Image]({{ site.baseurl }}assets/images/Target_circle.png)
+![Image]({{ site.baseurl }}/assets/images/Target_circle.png)
 
 In contrast to raids, where only the pixel directly beneath you defines your hitbox, jump puzzles have an additional hitbox that comes into play when you are more than 0.5 yalms above another surface. In jump puzzles we essentially have two styles of hit box. The first one is apparent if you’ve ever dodged mechanics that only gave you an extremely small safe space to hide in. When you are within 0.5 yalms of a flat solid surface the game registers your hitbox as only the pixel directly in the center of your target circle. You should be able to easily walk up and down off of these objects at this height like they were stairs.
 
 **Example:**
 
-![Image]({{ site.baseurl }}assets/images/Target_circle_short.gif)
+![Image]({{ site.baseurl }}/assets/images/Target_circle_short.gif)
 
 When you are higher than 0.5 yalms from a flat surface your entire outer ring essentially serves as your hitbox. In most cases, as long as this outer ring contacts a walkable surface, you can maintain your footing, even when 99% of your character appears to hang over the edge, seemingly defying gravity as you walk on air. Paying attention to your target circle can help you overcome tight jumps and jumps that do not give you much room in which to walk.
 
 **Example:**
 
-![Image]({{ site.baseurl }}assets/images/Target_Circle_1.gif)
+![Image]({{ site.baseurl }}/assets/images/Target_Circle_1.gif)
 
 ## **Jump Length and Speed**
 
@@ -90,7 +90,7 @@ The speed of your character affects the length of your base jump. When jumping w
 
 **Example:** In the image below, you can see the difference in length between a Peloton jump (light green) and a Sprint jump (black).
 
-![Image]({{ site.baseurl }}assets/images/Peloton.gif)
+![Image]({{ site.baseurl }}/assets/images/Peloton.gif)
 
 ## **Walk mode**
 
@@ -110,4 +110,4 @@ Warping occurs when, while navigating a puzzle, you're suddenly teleported to a 
 
 **Examples:**
 
-![Image]({{ site.baseurl }}assets/images/warping.gif) ![Image]({{ site.baseurl }}assets/images/warping_2.gif)
+![Image]({{ site.baseurl }}/assets/images/warping.gif) ![Image]({{ site.baseurl }}/assets/images/warping_2.gif)
