@@ -1,57 +1,272 @@
-.table-wrapper {
-  overflow-x: auto;
-}
+// Core elements that need immediate styling
+body {
+  background: linear-gradient(-45deg, #ff8a00, #e53e3e, #dd6b20, #f6ad55);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  position: relative;
 
-.table-wrapper table {
-  max-width: 100%;
-  border-collapse: collapse;
-  table-layout: auto;
-}
-
-.table-wrapper th,
-.table-wrapper td {
-  padding: 8px;
-  text-align: left;
-  border: 1px solid #ddd;
-  white-space: nowrap;
-}
-
-// Example of setting min and max widths for specific columns
-.table-wrapper th:nth-child(1),
-.table-wrapper td:nth-child(1) {
-  min-width: 60px;
-  max-width: 100px;
-}
-
-.table-wrapper th:nth-child(2),
-.table-wrapper td:nth-child(2) {
-  min-width: 80px;
-  max-width: 150px;
-}
-
-// Add similar rules for other columns as needed
-
-// Media query for smaller screens
-@media screen and (max-width: 600px) {
-  .table-wrapper th,
-  .table-wrapper td {
-    white-space: normal; // Allow wrapping on smaller screens
+  &::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 0;
+    pointer-events: none;
   }
 }
 
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+// Layout
 .side-bar {
-  @include mq(lg) {
-    width: $nav-width * 1.5;
-    min-width: $nav-width;
-  }
+  background-color: rgba(0, 0, 0, 0.8);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1;
+  width: $nav-width;
+  position: fixed;
+  height: 100%;
+  left: 0;
 }
 
 .main {
-  @include mq(lg) {
-    max-width: calc(100% - #{$nav-width} - 1px);
+  margin-left: $nav-width;
+  background: transparent;
+  z-index: 1;
+  max-width: calc(100% - #{$nav-width});
+}
+
+// Header and Navigation
+.site-header {
+  background-color: transparent !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.main-header {
+  background: transparent !important;
+  padding: 0 1rem;
+  height: auto;
+  max-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 100;
+
+  .search {
+    flex: 1;
+    padding: 1rem 0;
+    position: relative;
+    display: block;
+    z-index: 101;
+
+    .search-input-wrap {
+      position: relative;
+      display: block;
+      z-index: 102;
+
+      .search-input {
+        background-color: rgba(0, 0, 0, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 4px;
+        color: #ffffff;
+        padding: 0.5rem 2.5rem 0.5rem 0.75rem;
+        width: 100%;
+        display: block;
+        position: relative;
+        z-index: 103;
+
+        &::placeholder {
+          color: rgba(255, 255, 255, 0.5);
+        }
+
+        &:focus {
+          background-color: rgba(0, 0, 0, 0.4);
+          border-color: rgba(246, 173, 85, 0.4);
+          outline: none;
+        }
+      }
+
+      .search-label {
+        position: absolute;
+        right: 50px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: rgba(255, 255, 255, 0.5);
+        width: 1rem;
+        height: 1rem;
+        display: block;
+        pointer-events: none;
+        z-index: 104;
+      }
+    }
+  }
+
+  .aux-nav {
+    margin-left: 1rem;
   }
 }
 
-.main-content-wrap {
-  padding-left: 0 !important;
+.search-results {
+  background: rgba(0, 0, 0, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+
+  .search-result {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.75rem;
+
+    &:hover {
+      background: rgba(246, 173, 85, 0.1);
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .side-bar {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .main {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .main-header {
+    height: auto;
+    padding: 1rem;
+
+    .search {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+// Main Content
+.main-content {
+  color: #ffffff;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #ffffff;
+  }
+
+  a {
+    color: #f6ad55;
+
+    &:hover {
+      color: lighten(#f6ad55, 10%);
+    }
+  }
+}
+
+// Tables
+.table-wrapper {
+  overflow-x: auto;
+  margin: 1rem 0;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+
+    thead {
+      tr {
+        background: rgba(0, 0, 0, 0.3);
+        border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+
+        th {
+          color: #f6ad55;
+          font-weight: 500;
+          text-transform: uppercase;
+          font-size: 0.875rem;
+          padding: 0.75rem;
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          white-space: nowrap;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+        &:nth-child(odd) {
+          background: rgba(0, 0, 0, 0.2);
+        }
+
+        &:hover {
+          background: rgba(246, 173, 85, 0.05);
+        }
+
+        td {
+          padding: 0.75rem;
+          border: 1px solid rgba(255, 255, 255, 0.1);
+          color: rgba(255, 255, 255, 0.9);
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+
+// Breadcrumbs
+.breadcrumb-nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  .breadcrumb-nav-list-item {
+    color: rgba(255, 255, 255, 0.5);
+
+    a {
+      color: rgba(255, 255, 255, 0.8);
+
+      &:hover {
+        color: #f6ad55;
+      }
+    }
+  }
+}
+
+// Navigation links
+.nav-list .nav-list-item {
+  .nav-list-link {
+    color: rgba(255, 255, 255, 0.8) !important;
+
+    &:hover,
+    &.active {
+      background: rgba(246, 173, 85, 0.1);
+      color: #f6ad55 !important;
+    }
+  }
+}
+
+// Header links
+.aux-nav-list-item {
+  .site-button {
+    color: rgba(255, 255, 255, 0.8) !important;
+
+    &:hover {
+      background: rgba(246, 173, 85, 0.1);
+      color: #f6ad55 !important;
+    }
+  }
 }
