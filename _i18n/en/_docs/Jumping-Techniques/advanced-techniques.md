@@ -1,11 +1,3 @@
----
-layout: page
-title: Advanced Techniques
-parent: Jumping Techniques
-permalink: /advanced-techs/
-nav_order: 4
----
-
 # Advanced Jumping Techniques
 
 The Techniques in this section are by no means an exhaustive list; rather it is designed to assist jumpers who may be exploring the 3 and 4-star puzzle challenges by offering a few helpful insights and strategies.

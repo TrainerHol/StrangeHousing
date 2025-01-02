@@ -1,10 +1,3 @@
----
-layout: page
-title: Puzzle Alt Guide
-permalink: /alt-guide/
-nav_order: 5
----
-
 # 🏠 Ultimate Guide to Creating an Alt for Jump Puzzles in FFXIV
 
 Credits: Emerald, Emi, Cutestfox, Daranae, Zimanta

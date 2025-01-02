@@ -1,11 +1,3 @@
----
-layout: page
-title: Parkour League
-permalink: /parkour-league/
-has_children: true
-nav_order: 6
----
-
 # Welcome to Parkour League!
 
 The premise is simple: we provide a list of puzzles, you clear them! Once you clear every puzzle in a circuit, you gain a badge! Each circuit will consist of puzzles of the same difficulty level from the same region, e.g. NA 1★ Circuit, EU 2★ Circuit, etc. Badges and roles will be awarded with completions.
@@ -22,7 +14,7 @@ _(You will be awarded with a permanent version of your highest badge per region 
 
 We're not going to go hard on rules because Parkour League is meant to be a fun and social thing and not really something we want to police or validate. We'll be going by the honor system with badges (they're just for fun anyways) and we ask that you use new clears even if you have already cleared a puzzle before. Some of the puzzles selected for the League might be older builds you haven't seen in a while anyways.
 
-Also, puzzles from Empyreum and Shirogane may be difficult to access if you've created alts in a new region. You can try to ask for friend teleports in <#845500181385707560> but if you are unable to get one they aren't required for badges from alt regions.
+Also, puzzles from Empyreum and Shirogane may be difficult to access if you've created alts in a new region. You can try to ask for friend teleports on Discord but if you are unable to get one they aren't required for badges from alt regions.
 
 So tl;dr: using honor system, post new clears only, Empyreum and Shirogane puzzles not required for alt region badges
 

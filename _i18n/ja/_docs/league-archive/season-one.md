@@ -1,33 +1,25 @@
----
-layout: page
-title: Season One List
-parent: Parkour League
-permalink: /season-one/
-nav_order: 1
----
+# シーズン 1
 
-# Season One
+## 北米サーキット - ★☆☆☆☆
 
-## North American Circuit - ★☆☆☆☆
+| ID    | ワールド | DC         | 地区 | 区画 | 番地 | 部屋 | Puzzle Name              |
+| :---- | :------- | :--------- | :--- | :--- | :--- | :--- | :----------------------- |
+| 00253 | Cactuar  | Aether NA  | SH   | 17   | 37   | 10   | Library of the Ancients  |
+| 00081 | Jenova   | Aether NA  | LB   | 10   | 36   | 8    | Cookie Party I           |
+| 00534 | Jenova   | Aether NA  | LB   | 10   | 36   | 12   | Yuri Collection I        |
+| 00451 | Jenova   | Aether NA  | LB   | 10   | A2   | 70   | The Pit                  |
+| 00244 | Jenova   | Aether NA  | MI   | 20   | A1   | 56   | Krotafos                 |
+| 00388 | Sarg     | Aether NA  | LB   | 13   | A2   | 24   | Silent Memorial          |
+| 00515 | Seraph   | Dynamis NA | LB   | 8    | 58   | 17   | Waterless Park           |
+| 00604 | Seraph   | Dynamis NA | LB   | 8    | 53   | -    | Cloudy Rain              |
+| 00496 | Excal    | Primal NA  | MI   | 5    | 3    | 13   | Vases' Valse             |
+| 00394 | Excal    | Primal NA  | MI   | 1    | A1   | 50   | Sleeping with the Fishes |
+| 00066 | Excal    | Primal NA  | MI   | 14   | A2   | 31   | Cities and Skylines      |
+| 00039 | Ultros   | Primal NA  | MI   | 15   | A1   | 27   | Benji's Abode            |
 
-| ID    | World   | DC         | Dist | Ward | Plot | Room | Puzzle Name              |
-| :---- | :------ | :--------- | :--- | :--- | :--- | :--- | :----------------------- |
-| 00253 | Cactuar | Aether NA  | SH   | 17   | 37   | 10   | Library of the Ancients  |
-| 00081 | Jenova  | Aether NA  | LB   | 10   | 36   | 8    | Cookie Party I           |
-| 00534 | Jenova  | Aether NA  | LB   | 10   | 36   | 12   | Yuri Collection I        |
-| 00451 | Jenova  | Aether NA  | LB   | 10   | A2   | 70   | The Pit                  |
-| 00244 | Jenova  | Aether NA  | MI   | 20   | A1   | 56   | Krotafos                 |
-| 00388 | Sarg    | Aether NA  | LB   | 13   | A2   | 24   | Silent Memorial          |
-| 00515 | Seraph  | Dynamis NA | LB   | 8    | 58   | 17   | Waterless Park           |
-| 00604 | Seraph  | Dynamis NA | LB   | 8    | 53   | -    | Cloudy Rain              |
-| 00496 | Excal   | Primal NA  | MI   | 5    | 3    | 13   | Vases' Valse             |
-| 00394 | Excal   | Primal NA  | MI   | 1    | A1   | 50   | Sleeping with the Fishes |
-| 00066 | Excal   | Primal NA  | MI   | 14   | A2   | 31   | Cities and Skylines      |
-| 00039 | Ultros  | Primal NA  | MI   | 15   | A1   | 27   | Benji's Abode            |
+## 北米サーキット - ★★☆☆☆
 
-## North American Circuit - ★★☆☆☆
-
-| ID    | World    | DC         | Dist | Ward | Plot | Room | Puzzle Name          |
+| ID    | ワールド | DC         | 地区 | 区画 | 番地 | 部屋 | Puzzle Name          |
 | ----- | -------- | ---------- | ---- | ---- | ---- | ---- | -------------------- |
 | 00434 | Jenova   | Aether NA  | LB   | 7    | 58   | 3    | Tetanus Tower        |
 | 00252 | Jenova   | Aether NA  | LB   | 10   | 36   | 34   | Level Checker        |
@@ -42,9 +34,9 @@ nav_order: 1
 | 00278 | Behemoth | Primal NA  | LB   | 24   | 60   | 4    | Moving Gallery       |
 | 00272 | Hyperion | Primal NA  | LB   | 23   | A1   | 29   | Mog Mountain         |
 
-## North American Circuit - ★★★☆☆
+## 北米サーキット - ★★★☆☆
 
-| ID    | World    | DC         | Dist | Ward | Plot | Room | Puzzle Name              |
+| ID    | ワールド | DC         | 地区 | 区画 | 番地 | 部屋 | Puzzle Name              |
 | ----- | -------- | ---------- | ---- | ---- | ---- | ---- | ------------------------ |
 | 00106 | Faerie   | Aether NA  | MI   | 5    | 2    | 3    | Dumpster Dive (Chrysy)   |
 | 00271 | Jenova   | Aether NA  | SH   | 10   | 60   | 7    | Mismera                  |
@@ -59,9 +51,9 @@ nav_order: 1
 | 00547 | Lamia    | Primal NA  | EM   | 13   | 32   | 4    | The Aquarium's Secret    |
 | 00226 | Ultros   | Primal NA  | GO   | 13   | A1   | 9    | Jump Puzzle Donkey Kong  |
 
-## European Circuit - ★☆☆☆☆
+## 欧州サーキット - ★☆☆☆☆
 
-| ID    | World    | DC       | Dist | Ward | Plot | Room | Puzzle Name              |
+| ID    | ワールド | DC       | 地区 | 区画 | 番地 | 部屋 | Puzzle Name              |
 | ----- | -------- | -------- | ---- | ---- | ---- | ---- | ------------------------ |
 | 00040 | Louisoix | Chaos EU | MI   | 11   | A1   | 35   | Bibliophobia             |
 | 00346 | Phantom  | Chaos EU | MI   | 9    | A1   | 4    | Rise of the Pentaminos   |
@@ -75,9 +67,9 @@ nav_order: 1
 | 00387 | Lich     | Light EU | GO   | 12   | 14   | 9    | Signposts to Where?      |
 | 00630 | Lich     | Light EU | GO   | 12   | 14   | 16   | Black Mage               |
 
-## European Circuit - ★★☆☆☆
+## 欧州サーキット - ★★☆☆☆
 
-| ID    | World    | DC       | Dist | Ward | Plot | Room | Puzzle Name               |
+| ID    | ワールド | DC       | 地区 | 区画 | 番地 | 部屋 | Puzzle Name               |
 | ----- | -------- | -------- | ---- | ---- | ---- | ---- | ------------------------- |
 | 00444 | Cerberus | Chaos EU | SH   | 6    | 41   | -    | The Little Flower         |
 | 00311 | Omega    | Chaos EU | LB   | 15   | 32   | 7    | Petals                    |
@@ -92,9 +84,9 @@ nav_order: 1
 | 00197 | Phoenix  | Light EU | LB   | 11   | A2   | 14   | Hidden Moonlight          |
 | 00019 | Phoenix  | Light EU | LB   | 15   | 59   | -    | Ahriman Express           |
 
-## European Circuit - ★★★☆☆
+## 欧州サーキット - ★★★☆☆
 
-| ID    | World    | DC       | Dist | Ward | Plot | Room | Puzzle Name           |
+| ID    | ワールド | DC       | 地区 | 区画 | 番地 | 部屋 | Puzzle Name           |
 | ----- | -------- | -------- | ---- | ---- | ---- | ---- | --------------------- |
 | 00222 | Moogle   | Chaos EU | LB   | 2    | A1   | 59   | It's Cold Inside      |
 | 00001 | Omega    | Chaos EU | SH   | 20   | 13   | -    | :3c                   |
@@ -109,11 +101,11 @@ nav_order: 1
 | 00348 | Lich     | Light EU | GO   | 12   | A1   | 45   | Roemeo's Revenge      |
 | 00398 | Lich     | Light EU | GO   | 12   | 14   | 4    | Smoke Break           |
 
-# FFXIV Puzzle Circuits
+# FFXIV パズルサーキット
 
-## Global Circuit - ★★★★☆
+## グローバルサーキット - ★★★★☆
 
-| ID    | World     | DC         | Dist | Ward | Plot | Room | Puzzle Name                    |
+| ID    | ワールド  | DC         | 地区 | 区画 | 番地 | 部屋 | Puzzle Name                    |
 | :---- | :-------- | :--------- | :--- | :--- | :--- | :--- | :----------------------------- |
 | 00403 | Jenova    | Aether NA  | LB   | 10   | 36   | 20   | Spare Parts II                 |
 | 00263 | Malboro   | Crystal NA | GO   | 27   | 43   | -    | Luxfire Faire Tower v3         |

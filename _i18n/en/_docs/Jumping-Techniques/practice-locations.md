@@ -1,11 +1,3 @@
----
-layout: page
-title: Practice Locations
-parent: Jumping Techniques
-permalink: /practice-locations/
-nav_order: 1
----
-
 # Practice Locations
 
 Many of the techniques mentioned in this guide can be practiced at the following locations:

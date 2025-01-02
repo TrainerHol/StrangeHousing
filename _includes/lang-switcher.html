@@ -1,0 +1,11 @@
+{% if site.languages.size >= 2 %}
+<div class="lang-switcher">
+  {% for lang in site.languages %} {% assign current_url = page.url | remove: '/ja/' | remove: '/en/' %} {% if lang == site.active_lang %}
+  <span class="active">{{ lang }}</span>
+  {% else %} {% if lang == site.default_lang %}
+  <a href="{{ current_url }}">{{ lang }}</a>
+  {% else %}
+  <a href="/{{ lang }}{{ current_url }}">{{ lang }}</a>
+  {% endif %} {% endif %} {% unless forloop.last %} | {% endunless %} {% endfor %}
+</div>
+{% endif %}

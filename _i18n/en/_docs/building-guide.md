@@ -1,11 +1,3 @@
----
-layout: page
-title: Building Guide
-permalink: /building-guide/
-has_children: false
-nav_order: 1
----
-
 # 🏗️ Jump Puzzle Building Guide
 
 A guide for creating your own basic Jump Puzzle, by Emerald Ares.

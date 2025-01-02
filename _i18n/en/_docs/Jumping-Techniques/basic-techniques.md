@@ -1,11 +1,3 @@
----
-layout: page
-title: Basic Jumping Techniques
-parent: Jumping Techniques
-permalink: /basic-techs/
-nav_order: 2
----
-
 # Basic Jumping Techniques
 
 These are some of the fundamental skills that will help ease you into starting your journey into jump puzzles.

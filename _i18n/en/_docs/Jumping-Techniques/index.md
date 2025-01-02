@@ -1,11 +1,3 @@
----
-layout: page
-title: Jumping Techniques
-permalink: /jumping-techs/
-has_children: true
-nav_order: 1
----
-
 # The Em-Possible Jumping Guide!
 
 Making jumps possible by Emileigh Beastslayer

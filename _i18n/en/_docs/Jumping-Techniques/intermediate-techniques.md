@@ -1,11 +1,3 @@
----
-layout: page
-title: Intermediate Techniques
-parent: Jumping Techniques
-permalink: /intermediate-techs/
-nav_order: 3
----
-
 # Intermediate Jumping Techniques
 
 <details open markdown="block">

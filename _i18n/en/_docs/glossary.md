@@ -1,11 +1,3 @@
----
-layout: page
-title: Jump Puzzle Glossary
-permalink: /glossary/
-has_children: false
-nav_order: 1
----
-
 # Jump Puzzle Glossary
 
 ## BLU Cheese 🧀
