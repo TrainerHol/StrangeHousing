@@ -12,7 +12,7 @@ Did you know there's over 1000 player-made jump puzzles in Final Fantasy XIV? Ou
 Looking for your next challenge? Use our [Puzzle Search Tool](https://search.xivpuzzles.com) to:
 
 - Find puzzles on your world or data center
-- Filter by star difficulty, mechanics, and more
+- Filter by star difficulty, [mechanics](/subtypes), and more
 - Get exact housing addresses
 
 {: .info }
