@@ -1,6 +1,6 @@
 # ストレンジハウジングへようこそ！
 
-[🎮Discord](https://discord.gg/cVUjUUXFhG){: .btn .btn-blue }
+[🎮Discord](https://discord.gg/TGVVMx6wA6){: .btn .btn-blue }
 [🔍 パズル検索](https://search.xivpuzzles.com){: .btn .btn-green }
 [📛 称号バッジ](https://badges.xivpuzzles.com){: .btn .btn-red-100 }
 [🏡 投稿フォーム](https://forms.gle/ZPhT29Q6Y3shQnWi8){: .btn .btn-purple }

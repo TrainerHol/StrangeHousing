@@ -1,6 +1,6 @@
 # Welcome to Strange Housing!
 
-[🎮Discord](https://discord.gg/cVUjUUXFhG){: .btn .btn-blue }
+[🎮Discord](https://discord.gg/TGVVMx6wA6){: .btn .btn-blue }
 [🔍Search Puzzles](https://search.xivpuzzles.com){: .btn .btn-green }
 [📛Badges](https://badges.xivpuzzles.com){: .btn .btn-red-100 }
 [🏡Submit a House](https://forms.gle/ZPhT29Q6Y3shQnWi8){: .btn .btn-purple }
