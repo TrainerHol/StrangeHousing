@@ -23,7 +23,7 @@ gem "just-the-docs" # Add this line to include the just-the-docs theme
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.18"
   gem 'jekyll-multiple-languages-plugin'
 end
 
